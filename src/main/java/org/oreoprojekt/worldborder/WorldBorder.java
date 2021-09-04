@@ -6,7 +6,7 @@ import org.oreoprojekt.worldborder.command.WorldBorderCommand;
 import org.oreoprojekt.worldborder.event.WorldBorderItemEvent;
 
 public final class WorldBorder extends JavaPlugin {
-    public String Prefix = ChatColor.YELLOW + "[WorldBorder] ";
+    public static String Prefix = ChatColor.YELLOW + "[WorldBorder] ";
 
     @Override
     public void onEnable() {

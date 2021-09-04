@@ -15,8 +15,9 @@ import org.oreoprojekt.worldborder.WorldBorder;
 
 import java.util.Arrays;
 
+import static org.oreoprojekt.worldborder.WorldBorder.Prefix;
+
 public class WorldBorderCommand implements CommandExecutor {
-    String Prefix = new WorldBorder().Prefix;
 
     public boolean checkPermission(CommandSender sender, String permission) {
         if (sender.hasPermission(permission)) {
