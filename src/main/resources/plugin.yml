@@ -1,0 +1,6 @@
+name: WorldBorder
+version: '${project.version}'
+main: org.oreoprojekt.worldborder.WorldBorder
+api-version: 1.17
+authors: [ 0reo_0 ]
+description: worldBorder Plugin
